@@ -64,7 +64,7 @@ const PostSpace = () => {
 
   useEffect(() => {
     const newClient = new Client({
-      brokerURL: 'ws://192.168.25.3:8080/gs-guide-websocket', // Spring Boot WebSocket URL
+      brokerURL: 'ws://192.168.31.224:8080/ws', // Spring Boot WebSocket URL
       connectHeaders: {
         login: 'user',
         passcode: 'password',
